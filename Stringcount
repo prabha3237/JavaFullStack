@@ -1,0 +1,21 @@
+stringcount.
+..
+package com.prabha.java;
+class String1{
+	public static void main(String args[]) {
+		int count=0;
+		String name="hello good morning";
+		for(int i=0;i<name.length();i++)
+		{
+			if(name.charAt(i)==' ') {
+				count++;
+			}
+		}
+		
+	    System.out.println(count);
+	}
+}
+		
+..
+output:
+2
