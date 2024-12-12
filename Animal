@@ -1,0 +1,25 @@
+Animal.
+..
+package com.prabha.java;
+ class Animal1 {
+		    void sound() {
+		        System.out.println("animal makes a sound");
+		    }
+		}
+
+		class Dog extends Animal1 {
+			 @Override
+		    void sound() {
+		        System.out.println("Dog barks");
+		    }
+		}
+
+		public class Animal {
+		    public static void main(String[] args) {
+		        Animal1 myDog = new Dog();
+		        myDog.sound(); 
+		    }
+		}..
+output:
+Dog barks
+..
