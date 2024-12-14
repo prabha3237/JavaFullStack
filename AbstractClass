@@ -1,0 +1,342 @@
+Abstract class.
+..
+cirlce,rectangle,triangle..
+..
+mothods:
+collect()
+calculate()
+display()
+..
+Program:
+
+import java.util.Scanner;
+abstract class Shape{
+	abstract void  collect();
+	abstract void calculate();
+	abstract void diplay();
+}
+class Circle1{
+		double radius;
+		double crc;
+		final double pi=3.14;
+
+	void collectdata() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the radius:");
+		radius=sc.nextDouble();
+	}
+	void calculate() {
+		crc=pi*radius*radius;
+	}
+	void display() {
+		System.out.println("area of circle is:"+crc);
+	}
+}
+class Rectangle{
+
+	double length;
+	double width;
+	double rect;
+	void collectdata() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("area the length :");
+		System.out.println("enter the width :");
+		length=sc.nextDouble();
+		width=sc.nextDouble();
+	}
+	void calculate() {
+	rect=length*width;	
+	}
+	void display() {
+		System.out.println("area of rectangle is:"+rect);
+	}
+}
+	class Triangle{
+
+		double base;
+		double height;
+		double tria;
+		void collectdata() {
+			Scanner sc=new Scanner(System.in);
+			System.out.println("enter the base :");
+			System.out.println("enter the height:");
+			base=sc.nextDouble();
+			height=sc.nextDouble();
+		}
+		void calculate() {
+			tria= 0.5*base*height;
+		}
+		void display() {
+			System.out.println("enter area of triangle is:"+tria);
+		}
+	}
+		
+public class Ab {
+	public static void main(String args[]) {
+		Circle1 a= new Circle1();
+		a.collectdata();
+		a.calculate();
+		a.display();
+		Rectangle r=new Rectangle();
+		r.collectdata();
+		r.calculate();
+		r.display();
+		Triangle t=new Triangle();
+		t.collectdata();
+		t.calculate();
+		t.display();
+	}
+}
+..
+import java.util.Scanner;
+abstract class Shape{
+	abstract void  collect();
+	abstract void calculate();
+	abstract void diplay();
+}
+class Circle1{
+		double radius;
+		double crc;
+		final double pi=3.14;
+
+	void collectdata() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the radius:");
+		radius=sc.nextDouble();
+	}
+	void calculate() {
+		crc=pi*radius*radius;
+	}
+	void display() {
+		System.out.println("area of circle is:"+crc);
+	}
+}
+class Rectangle{
+
+	double length;
+	double width;
+	double rect;
+	void collectdata() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("area the length :");
+		System.out.println("enter the width :");
+		length=sc.nextDouble();
+		width=sc.nextDouble();
+	}
+	void calculate() {
+	rect=length*width;	
+	}
+	void display() {
+		System.out.println("area of rectangle is:"+rect);
+	}
+}
+	class Triangle{
+
+		double base;
+		double height;
+		double tria;
+		void collectdata() {
+			Scanner sc=new Scanner(System.in);
+			System.out.println("enter the base :");
+			System.out.println("enter the height:");
+			base=sc.nextDouble();
+			height=sc.nextDouble();
+		}
+		void calculate() {
+			tria= 0.5*base*height;
+		}
+		void display() {
+			System.out.println("enter area of triangle is:"+tria);
+		}
+	}
+		
+public class Ab {
+	public static void main(String args[]) {
+		Circle1 a= new Circle1();
+		a.collectdata();
+		a.calculate();
+		a.display();
+		Rectangle r=new Rectangle();
+		r.collectdata();
+		r.calculate();
+		r.display();
+		Triangle t=new Triangle();
+		t.collectdata();
+		t.calculate();
+		t.display();
+	}
+}
+import java.util.Scanner;
+abstract class Shape{
+	abstract void  collect();
+	abstract void calculate();
+	abstract void diplay();
+}
+class Circle1{
+		double radius;
+		double crc;
+		final double pi=3.14;
+
+	void collectdata() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the radius:");
+		radius=sc.nextDouble();
+	}
+	void calculate() {
+		crc=pi*radius*radius;
+	}
+	void display() {
+		System.out.println("area of circle is:"+crc);
+	}
+}
+class Rectangle{
+
+	double length;
+	double width;
+	double rect;
+	void collectdata() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("area the length :");
+		System.out.println("enter the width :");
+		length=sc.nextDouble();
+		width=sc.nextDouble();
+	}
+	void calculate() {
+	rect=length*width;	
+	}
+	void display() {
+		System.out.println("area of rectangle is:"+rect);
+	}
+}
+	class Triangle{
+
+		double base;
+		double height;
+		double tria;
+		void collectdata() {
+			Scanner sc=new Scanner(System.in);
+			System.out.println("enter the base :");
+			System.out.println("enter the height:");
+			base=sc.nextDouble();
+			height=sc.nextDouble();
+		}
+		void calculate() {
+			tria= 0.5*base*height;
+		}
+		void display() {
+			System.out.println("enter area of triangle is:"+tria);
+		}
+	}
+		
+public class Ab {
+	public static void main(String args[]) {
+		Circle1 a= new Circle1();
+		a.collectdata();
+		a.calculate();
+		a.display();
+		Rectangle r=new Rectangle();
+		r.collectdata();
+		r.calculate();
+		r.display();
+		Triangle t=new Triangle();
+		t.collectdata();
+		t.calculate();
+		t.display();
+	}
+}
+..
+import java.util.Scanner;
+abstract class Shape{
+	abstract void  collect();
+	abstract void calculate();
+	abstract void diplay();
+}
+class Circle1{
+		double radius;
+		double crc;
+		final double pi=3.14;
+
+	void collectdata() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the radius:");
+		radius=sc.nextDouble();
+	}
+	void calculate() {
+		crc=pi*radius*radius;
+	}
+	void display() {
+		System.out.println("area of circle is:"+crc);
+	}
+}
+class Rectangle{
+
+	double length;
+	double width;
+	double rect;
+	void collectdata() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("area the length :");
+		System.out.println("enter the width :");
+		length=sc.nextDouble();
+		width=sc.nextDouble();
+	}
+	void calculate() {
+	rect=length*width;	
+	}
+	void display() {
+		System.out.println("area of rectangle is:"+rect);
+	}
+}
+	class Triangle{
+
+		double base;
+		double height;
+		double tria;
+		void collectdata() {
+			Scanner sc=new Scanner(System.in);
+			System.out.println("enter the base :");
+			System.out.println("enter the height:");
+			base=sc.nextDouble();
+			height=sc.nextDouble();
+		}
+		void calculate() {
+			tria= 0.5*base*height;
+		}
+		void display() {
+			System.out.println("enter area of triangle is:"+tria);
+		}
+	}
+		
+public class Ab {
+	public static void main(String args[]) {
+		Circle1 a= new Circle1();
+		a.collectdata();
+		a.calculate();
+		a.display();
+		Rectangle r=new Rectangle();
+		r.collectdata();
+		r.calculate();
+		r.display();
+		Triangle t=new Triangle();
+		t.collectdata();
+		t.calculate();
+		t.display();
+	}
+}
+..
+expected output:
+.
+enter the radius:
+3
+area of circle is:28.259999999999998
+area the length :
+enter the width :
+4
+5
+area of rectangle is:20.0
+enter the base :
+enter the height:
+4
+5
+enter area of triangle is:10.0
+..
